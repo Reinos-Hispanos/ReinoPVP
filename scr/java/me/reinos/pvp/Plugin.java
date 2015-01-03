@@ -36,6 +36,8 @@ public class Plugin extends JavaPlugin implements Listener{
 		                player.sendMessage("§9§l/rpvp entrar <NOMBREARENA> §e§l- §b§lEntrar a una arena");
 		                player.sendMessage("§9§l/rpvp salir §e§l- §b§lSalir de la arena");
 		    	  }
+		      } else {
+		    	  sender.sendMessage("§c§lComando solo para jugadores, no para la consola :P");
 		      }
 		return false;
 	}
